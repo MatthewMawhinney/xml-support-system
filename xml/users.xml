@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+  <user role="client" id="34782">
+    <name>
+      <first>Matt</first>
+      <last>Mawhinney</last>
+    </name>
+    <email>mattmawhinney@live.com</email>
+    <dateJoined>2018-02-01</dateJoined>
+    <username>MattMawhinney</username>
+    <password>mattspassword1</password>
+    <location>
+      <country>Canada</country>
+      <timezone>EST</timezone>
+    </location>
+  </user>
+  <user role="client" id="69045">
+    <name>
+      <first>Bernie</first>
+      <last>Monette</last>
+    </name>
+    <email>berniemonette@humbermail.ca</email>
+    <dateJoined>2018-02-03</dateJoined>
+    <username>BernieM</username>
+    <password>webdev2</password>
+    <location>
+      <country>Canada</country>
+      <timezone>EST</timezone>
+    </location>
+  </user>
+  <user role="client" id="25739">
+    <name>
+      <first>John</first>
+      <last>Douglas</last>
+    </name>
+    <email>johnnyd@gmail.com</email>
+    <dateJoined>2018-01-28</dateJoined>
+    <username>JohnD45</username>
+    <password>Sportsfan3</password>
+    <location>
+      <country>Canada</country>
+      <timezone>MTN</timezone>
+    </location>
+  </user>
+  <user role="support" id="00007">
+    <name>
+      <first>Joanna</first>
+      <last>Kommala</last>
+    </name>
+    <email>joannak@humbermail.ca</email>
+    <dateJoined>2018-01-12</dateJoined>
+    <username>HumberJoanna</username>
+    <password>humber123</password>
+    <location>
+      <country>Canada</country>
+      <timezone>EST</timezone>
+    </location>
+  </user>
+</users>

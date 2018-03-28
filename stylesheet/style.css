@@ -1,0 +1,157 @@
+html {
+  background-color: #d1e0d5;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: #5c976b;
+  width: 100%;
+}
+h1 {
+  color: #5c976b;
+  margin: 0;
+}
+h2 {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  margin: 5px;
+  margin-right: 25px;
+  vertical-align: middle;
+  color: #5c976b;
+}
+h3 {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+  color: #5c976b;
+}
+i {
+  color: white;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+#title {
+  color: white;
+}
+#settings {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+#logout {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.page-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#login {
+  font-size: 1.25rem;
+  vertical-align: middle;
+}
+.container {
+  width: 60%;
+  margin: 15px auto;
+  background-color: white;
+  border-top: 8px solid #5c976b;
+  border-radius: 10px;
+  padding: 25px;
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px grey;
+
+}
+form {
+  color: #5c976b;
+}
+input, select {
+  margin: 10px;
+  width: 40%;
+}
+#sub {
+  width: 100px;
+  background-color: #5c976b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin-left: 0;
+}
+td, th {
+  color: black;
+  width: 20%;
+  text-align: center;
+}
+td a {
+  color: black;
+}
+.error {
+  color: red;
+}
+.messages {
+  color: black;
+}
+.msgGroup {
+  margin-top: 10px;
+}
+.msgText {
+  background-color: #5c976b;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+#reply {
+  border: none;
+  border: 1px solid #5c976b;
+  border-radius: 10px;
+  padding: 7px;
+  width: 60%;
+}
+#nameLabel {
+  font-size: .8rem;
+  margin-left: 15px;
+}
+#messageBtn {
+  width: 75px;
+  background-color: #5c976b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin-left: 0;
+}
+#closeTick {
+  width: 125px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin-left: 0;
+  float: right;
+}
+.viewBtn {
+  width: 100px;
+  background-color: #5c976b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin-left: 0;
+}
+#postMsg {
+    margin-top: 10px;
+}
+#back {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="tickets.xsl"?>-->
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">
+  <ticket id="1" date="2018-02-14" status="Resolved">
+    <category>Payment</category>
+    <clientId>34782</clientId>
+    <messages>
+      <supportMsg userId="34782" dateTime="2018-02-14 06:45:00">Hi there, I am having an issue with my payment option. Could I have someone take a look at order 345-937?</supportMsg>
+      <supportMsg userId="00023" dateTime="2018-02-14 06:52:00">Hello, upon inspection it appears that you payment is being rejected because of an incorrect card number for a card ending in 3475. Please enter a valid number and the error will disappear.</supportMsg>
+      <supportMsg userId="34782" dateTime="2018-02-14 06:54:00">Thank you, I now have it working. Have a good day.</supportMsg>
+    </messages>
+  </ticket>
+  <ticket id="2" date="2018-02-16" status="Resolved">
+    <category>Shipping</category>
+    <clientId>69045</clientId>
+    <messages>
+      <supportMsg userId="69045" dateTime="2018-02-16 14:26:00">Hey, how long would the shipping be to Los Angeles California?</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-02-16 14:29:00">Hello, the shipping time depends on your choice, which shipping method are you wishing to choose?</supportMsg>
+      <supportMsg userId="69045" dateTime="2018-02-16 14:30:00">I'd like the standard ground shipping.</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-02-16 14:34:00">Based on the location that would arrive in 3-4 business days.</supportMsg>
+    </messages>
+  </ticket>
+  <ticket id="3" date="2018-02-21" status="Open">
+    <category>Returns</category>
+    <clientId>69045</clientId>
+    <messages>
+      <supportMsg userId="69045" dateTime="2018-02-21 18:14:00">Hi, I would like to return my order 453-860, could someone please advise me in how to do so?</supportMsg>
+      <supportMsg userId="00054" dateTime="2018-02-21 18:19:00">Hello, the returns policy and FAQ is listed in the footer of every page, this will guide you return your goods. If you have more questions I can assist you from here.</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-03-26 17:53:56">gg</supportMsg>
+    </messages>
+  </ticket>
+  <ticket id="4" date="2018-02-24" status="Open">
+    <category>Email</category>
+    <clientId>87321</clientId>
+    <messages>
+      <supportMsg userId="87321" dateTime="2018-02-24 22:57:00">Hi, I am having trouble changing the email I have linked to my account as I no longer use that account. Could someone please assist me in this?</supportMsg>
+    </messages>
+  </ticket>
+  <ticket id="5" date="2018-03-28" status="Open">
+    <category>Payment</category>
+    <clientId>34782</clientId>
+    <messages>
+      <supportMsg userId="34782" dateTime="2018-03-28 22:07:32">Hello, I was wondering what types of payment you accept?</supportMsg>
+      <supportMsg userId="34782" dateTime="2018-03-28 22:11:56">Just a follow up on my earlier request?</supportMsg>
+    </messages>
+  </ticket>
+  <ticket id="6" date="2018-03-28" status="Resolved">
+    <category>Returns</category>
+    <clientId>34782</clientId>
+    <messages>
+      <supportMsg userId="34782" dateTime="2018-03-28 22:12:34">I would like to return my items, order #58392. Thank you.</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-03-28 22:45:48">Hi</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-03-28 22:45:52">Hi</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-03-28 22:46:01">This is an admin</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-03-28 22:48:56">Hi</supportMsg>
+      <supportMsg userId="00007" dateTime="2018-03-28 22:49:04">Hello</supportMsg>
+    </messages>
+  </ticket>
+</tickets>
